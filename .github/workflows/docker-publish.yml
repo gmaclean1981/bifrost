@@ -1,12 +1,8 @@
 name: Docker
 
+# Personal fork: manual runs only. Published binaries are separately validated.
 on:
-  push:
-    branches: [ "master", "dev" ]
-    # Publish semver tags as releases.
-    tags: [ "v*.*.*", "dev*" ]
-#  pull_request:
-#    branches: [ "master" ]
+  workflow_dispatch:
 
 env:
   # Use docker.io for Docker Hub if empty
