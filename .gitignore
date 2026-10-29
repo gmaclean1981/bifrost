@@ -8,3 +8,12 @@
 *~
 /data
 /*.json
+
+# Local maintenance build outputs and device data
+/vendor/
+/.cargo/config.toml
+/test-results/
+/config.yaml
+/cert.pem
+/state.yaml
+/state.v1.bak

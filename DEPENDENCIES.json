@@ -1,0 +1,2402 @@
+{
+  "release": "dev-2026-10-28-maint.1",
+  "packages": [
+    {
+      "name": "mdns-sd",
+      "version": "0.13.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/keepsimple1/mdns-sd",
+      "notice_files": 2
+    },
+    {
+      "name": "ahash",
+      "version": "0.8.11",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/tkaitchuck/ahash",
+      "notice_files": 2
+    },
+    {
+      "name": "aho-corasick",
+      "version": "1.1.3",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/aho-corasick",
+      "notice_files": 2
+    },
+    {
+      "name": "android-tzdata",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RumovZ/android-tzdata",
+      "notice_files": 2
+    },
+    {
+      "name": "android_system_properties",
+      "version": "0.1.5",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/nical/android_system_properties",
+      "notice_files": 2
+    },
+    {
+      "name": "anstream",
+      "version": "0.6.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "anstyle",
+      "version": "1.0.10",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "anstyle-parse",
+      "version": "0.2.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "anstyle-query",
+      "version": "1.1.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "anstyle-wincon",
+      "version": "3.0.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "anyhow",
+      "version": "1.0.103",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/anyhow",
+      "notice_files": 2
+    },
+    {
+      "name": "arc-swap",
+      "version": "1.7.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/vorner/arc-swap",
+      "notice_files": 2
+    },
+    {
+      "name": "arraydeque",
+      "version": "0.5.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/andylokandy/arraydeque",
+      "notice_files": 1
+    },
+    {
+      "name": "async-trait",
+      "version": "0.1.89",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/async-trait",
+      "notice_files": 2
+    },
+    {
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/smol-rs/atomic-waker",
+      "notice_files": 3
+    },
+    {
+      "name": "autocfg",
+      "version": "1.4.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/cuviper/autocfg",
+      "notice_files": 2
+    },
+    {
+      "name": "axum",
+      "version": "0.8.1",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/axum",
+      "notice_files": 1
+    },
+    {
+      "name": "axum-core",
+      "version": "0.5.0",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/axum",
+      "notice_files": 1
+    },
+    {
+      "name": "axum-macros",
+      "version": "0.5.0",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/axum",
+      "notice_files": 1
+    },
+    {
+      "name": "axum-server",
+      "version": "0.7.1",
+      "license": "MIT",
+      "repository": "https://github.com/programatik29/axum-server",
+      "notice_files": 1
+    },
+    {
+      "name": "base16ct",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/base16ct",
+      "notice_files": 2
+    },
+    {
+      "name": "base64",
+      "version": "0.22.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/marshallpierce/rust-base64",
+      "notice_files": 2
+    },
+    {
+      "name": "base64ct",
+      "version": "1.6.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/base64ct",
+      "notice_files": 2
+    },
+    {
+      "name": "bitflags",
+      "version": "2.8.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/bitflags/bitflags",
+      "notice_files": 2
+    },
+    {
+      "name": "bitvec",
+      "version": "1.0.1",
+      "license": "MIT",
+      "repository": "https://github.com/bitvecto-rs/bitvec",
+      "notice_files": 1
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.12.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "notice_files": 2
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "notice_files": 2
+    },
+    {
+      "name": "bumpalo",
+      "version": "3.17.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/fitzgen/bumpalo",
+      "notice_files": 2
+    },
+    {
+      "name": "byteorder",
+      "version": "1.5.0",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/byteorder",
+      "notice_files": 2
+    },
+    {
+      "name": "bytes",
+      "version": "1.11.1",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/bytes",
+      "notice_files": 1
+    },
+    {
+      "name": "camino",
+      "version": "1.1.9",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/camino-rs/camino",
+      "notice_files": 2
+    },
+    {
+      "name": "cc",
+      "version": "1.2.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/cc-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/alexcrichton/cfg-if",
+      "notice_files": 2
+    },
+    {
+      "name": "cfg_aliases",
+      "version": "0.2.1",
+      "license": "MIT",
+      "repository": "https://github.com/katharostech/cfg_aliases",
+      "notice_files": 2
+    },
+    {
+      "name": "chacha20",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/stream-ciphers",
+      "notice_files": 2
+    },
+    {
+      "name": "chrono",
+      "version": "0.4.39",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/chronotope/chrono",
+      "notice_files": 1
+    },
+    {
+      "name": "clap",
+      "version": "4.5.29",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/clap-rs/clap",
+      "notice_files": 2
+    },
+    {
+      "name": "clap-stdin",
+      "version": "0.6.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/thepacketgeek/clap-stdin",
+      "notice_files": 2
+    },
+    {
+      "name": "clap_builder",
+      "version": "4.5.29",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/clap-rs/clap",
+      "notice_files": 2
+    },
+    {
+      "name": "clap_derive",
+      "version": "4.5.28",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/clap-rs/clap",
+      "notice_files": 2
+    },
+    {
+      "name": "clap_lex",
+      "version": "0.7.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/clap-rs/clap",
+      "notice_files": 2
+    },
+    {
+      "name": "colorchoice",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/anstyle.git",
+      "notice_files": 2
+    },
+    {
+      "name": "config",
+      "version": "0.15.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/config-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "const-oid",
+      "version": "0.10.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats",
+      "notice_files": 2
+    },
+    {
+      "name": "const-oid",
+      "version": "0.9.6",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/const-oid",
+      "notice_files": 2
+    },
+    {
+      "name": "core-foundation",
+      "version": "0.9.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/core-foundation-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "core-foundation-sys",
+      "version": "0.8.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/core-foundation-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.3.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "notice_files": 2
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "notice_files": 2
+    },
+    {
+      "name": "crypto-bigint",
+      "version": "0.5.5",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/crypto-bigint",
+      "notice_files": 2
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "notice_files": 2
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.1.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "notice_files": 2
+    },
+    {
+      "name": "data-encoding",
+      "version": "2.8.0",
+      "license": "MIT",
+      "repository": "https://github.com/ia0/data-encoding",
+      "notice_files": 1
+    },
+    {
+      "name": "der",
+      "version": "0.7.9",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/der",
+      "notice_files": 2
+    },
+    {
+      "name": "der_derive",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/der/derive",
+      "notice_files": 2
+    },
+    {
+      "name": "diff",
+      "version": "0.1.13",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/utkarshkukreti/diff.rs",
+      "notice_files": 2
+    },
+    {
+      "name": "diffs",
+      "version": "0.5.1",
+      "license": "MIT/Apache-2.0",
+      "repository": null,
+      "notice_files": 1
+    },
+    {
+      "name": "digest",
+      "version": "0.11.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "notice_files": 2
+    },
+    {
+      "name": "digest",
+      "version": "0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "notice_files": 2
+    },
+    {
+      "name": "displaydoc",
+      "version": "0.2.5",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/yaahc/displaydoc",
+      "notice_files": 2
+    },
+    {
+      "name": "ecdsa",
+      "version": "0.16.9",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/signatures/tree/master/ecdsa",
+      "notice_files": 2
+    },
+    {
+      "name": "either",
+      "version": "1.13.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rayon-rs/either",
+      "notice_files": 2
+    },
+    {
+      "name": "elliptic-curve",
+      "version": "0.13.8",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/traits/tree/master/elliptic-curve",
+      "notice_files": 2
+    },
+    {
+      "name": "encoding_rs",
+      "version": "0.8.35",
+      "license": "(Apache-2.0 OR MIT) AND BSD-3-Clause",
+      "repository": "https://github.com/hsivonen/encoding_rs",
+      "notice_files": 4
+    },
+    {
+      "name": "env_logger",
+      "version": "0.10.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-cli/env_logger",
+      "notice_files": 2
+    },
+    {
+      "name": "equivalent",
+      "version": "1.0.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/indexmap-rs/equivalent",
+      "notice_files": 2
+    },
+    {
+      "name": "errno",
+      "version": "0.3.10",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/lambda-fairy/rust-errno",
+      "notice_files": 2
+    },
+    {
+      "name": "eventsource-stream",
+      "version": "0.2.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/jpopesculian/eventsource-stream",
+      "notice_files": 1
+    },
+    {
+      "name": "fastrand",
+      "version": "2.3.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/smol-rs/fastrand",
+      "notice_files": 2
+    },
+    {
+      "name": "ff",
+      "version": "0.13.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/zkcrypto/ff",
+      "notice_files": 2
+    },
+    {
+      "name": "flagset",
+      "version": "0.4.6",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/enarx/flagset",
+      "notice_files": 1
+    },
+    {
+      "name": "flume",
+      "version": "0.11.1",
+      "license": "Apache-2.0/MIT",
+      "repository": "https://github.com/zesterer/flume",
+      "notice_files": 2
+    },
+    {
+      "name": "fnv",
+      "version": "1.0.7",
+      "license": "Apache-2.0 / MIT",
+      "repository": "https://github.com/servo/rust-fnv",
+      "notice_files": 2
+    },
+    {
+      "name": "foreign-types",
+      "version": "0.3.2",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/sfackler/foreign-types",
+      "notice_files": 2
+    },
+    {
+      "name": "foreign-types-shared",
+      "version": "0.1.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/sfackler/foreign-types",
+      "notice_files": 2
+    },
+    {
+      "name": "form_urlencoded",
+      "version": "1.2.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-url",
+      "notice_files": 2
+    },
+    {
+      "name": "funty",
+      "version": "2.0.0",
+      "license": "MIT",
+      "repository": "https://github.com/myrrlyn/funty",
+      "notice_files": 1
+    },
+    {
+      "name": "futures",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-channel",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-core",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-executor",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-io",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-macro",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-sink",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-task",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "futures-util",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "generic-array",
+      "version": "0.14.7",
+      "license": "MIT",
+      "repository": "https://github.com/fizyk20/generic-array.git",
+      "notice_files": 1
+    },
+    {
+      "name": "getrandom",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/getrandom",
+      "notice_files": 2
+    },
+    {
+      "name": "getrandom",
+      "version": "0.2.15",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/getrandom",
+      "notice_files": 2
+    },
+    {
+      "name": "getrandom",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/getrandom",
+      "notice_files": 2
+    },
+    {
+      "name": "group",
+      "version": "0.13.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/zkcrypto/group",
+      "notice_files": 3
+    },
+    {
+      "name": "h2",
+      "version": "0.4.16",
+      "license": "MIT",
+      "repository": "https://github.com/hyperium/h2",
+      "notice_files": 1
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.15.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "notice_files": 2
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "notice_files": 2
+    },
+    {
+      "name": "hashlink",
+      "version": "0.9.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/kyren/hashlink",
+      "notice_files": 2
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/withoutboats/heck",
+      "notice_files": 2
+    },
+    {
+      "name": "hermit-abi",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/hermit-os/hermit-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "hex",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/KokaKiwi/rust-hex",
+      "notice_files": 2
+    },
+    {
+      "name": "hmac",
+      "version": "0.12.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/MACs",
+      "notice_files": 2
+    },
+    {
+      "name": "http",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/hyperium/http",
+      "notice_files": 2
+    },
+    {
+      "name": "http-body",
+      "version": "1.0.1",
+      "license": "MIT",
+      "repository": "https://github.com/hyperium/http-body",
+      "notice_files": 1
+    },
+    {
+      "name": "http-body-util",
+      "version": "0.1.2",
+      "license": "MIT",
+      "repository": "https://github.com/hyperium/http-body",
+      "notice_files": 1
+    },
+    {
+      "name": "httparse",
+      "version": "1.10.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/seanmonstar/httparse",
+      "notice_files": 2
+    },
+    {
+      "name": "httpdate",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/pyfisch/httpdate",
+      "notice_files": 2
+    },
+    {
+      "name": "humantime",
+      "version": "2.1.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/tailhook/humantime",
+      "notice_files": 2
+    },
+    {
+      "name": "hybrid-array",
+      "version": "0.4.13",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/hybrid-array",
+      "notice_files": 2
+    },
+    {
+      "name": "hyper",
+      "version": "1.6.0",
+      "license": "MIT",
+      "repository": "https://github.com/hyperium/hyper",
+      "notice_files": 1
+    },
+    {
+      "name": "hyper-tls",
+      "version": "0.6.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/hyperium/hyper-tls",
+      "notice_files": 2
+    },
+    {
+      "name": "hyper-util",
+      "version": "0.1.10",
+      "license": "MIT",
+      "repository": "https://github.com/hyperium/hyper-util",
+      "notice_files": 1
+    },
+    {
+      "name": "iana-time-zone",
+      "version": "0.1.61",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/strawlab/iana-time-zone",
+      "notice_files": 2
+    },
+    {
+      "name": "iana-time-zone-haiku",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/strawlab/iana-time-zone",
+      "notice_files": 2
+    },
+    {
+      "name": "icu_collections",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_locid",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_locid_transform",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_locid_transform_data",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_normalizer",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_normalizer_data",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_properties",
+      "version": "1.5.1",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_properties_data",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_provider",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "icu_provider_macros",
+      "version": "1.5.0",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "idna",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-url/",
+      "notice_files": 2
+    },
+    {
+      "name": "idna_adapter",
+      "version": "1.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/hsivonen/idna_adapter",
+      "notice_files": 2
+    },
+    {
+      "name": "if-addrs",
+      "version": "0.13.3",
+      "license": "MIT OR BSD-3-Clause",
+      "repository": "https://github.com/messense/if-addrs",
+      "notice_files": 2
+    },
+    {
+      "name": "indexmap",
+      "version": "2.7.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/indexmap-rs/indexmap",
+      "notice_files": 2
+    },
+    {
+      "name": "ipnet",
+      "version": "2.11.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/krisprice/ipnet",
+      "notice_files": 2
+    },
+    {
+      "name": "is-terminal",
+      "version": "0.4.15",
+      "license": "MIT",
+      "repository": "https://github.com/sunfishcode/is-terminal",
+      "notice_files": 2
+    },
+    {
+      "name": "is_terminal_polyfill",
+      "version": "1.70.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/polyfill-rs/is_terminal_polyfill",
+      "notice_files": 2
+    },
+    {
+      "name": "itertools",
+      "version": "0.14.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-itertools/itertools",
+      "notice_files": 2
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/itoa",
+      "notice_files": 2
+    },
+    {
+      "name": "js-sys",
+      "version": "0.3.77",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys",
+      "notice_files": 2
+    },
+    {
+      "name": "json_diff_ng",
+      "version": "0.6.0",
+      "license": "Unlicense",
+      "repository": "https://github.com/ChrisRega/json-diff",
+      "notice_files": 1
+    },
+    {
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang-nursery/lazy-static.rs",
+      "notice_files": 2
+    },
+    {
+      "name": "libc",
+      "version": "0.2.186",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/libc",
+      "notice_files": 2
+    },
+    {
+      "name": "libm",
+      "version": "0.2.11",
+      "license": "MIT AND (MIT OR Apache-2.0)",
+      "repository": "https://github.com/rust-lang/libm",
+      "notice_files": 1
+    },
+    {
+      "name": "libyml",
+      "version": "0.0.5",
+      "license": "MIT",
+      "repository": "https://github.com/sebastienrousseau/libyml",
+      "notice_files": 1
+    },
+    {
+      "name": "linux-raw-sys",
+      "version": "0.4.15",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/sunfishcode/linux-raw-sys",
+      "notice_files": 4
+    },
+    {
+      "name": "litemap",
+      "version": "0.7.4",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "lock_api",
+      "version": "0.4.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Amanieu/parking_lot",
+      "notice_files": 2
+    },
+    {
+      "name": "log",
+      "version": "0.4.33",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/log",
+      "notice_files": 2
+    },
+    {
+      "name": "mac_address",
+      "version": "1.1.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rep-nop/mac_address",
+      "notice_files": 2
+    },
+    {
+      "name": "maplit",
+      "version": "1.0.2",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/bluss/maplit",
+      "notice_files": 2
+    },
+    {
+      "name": "matchit",
+      "version": "0.8.4",
+      "license": "MIT AND BSD-3-Clause",
+      "repository": "https://github.com/ibraheemdev/matchit",
+      "notice_files": 2
+    },
+    {
+      "name": "memchr",
+      "version": "2.7.4",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/memchr",
+      "notice_files": 2
+    },
+    {
+      "name": "memoffset",
+      "version": "0.9.1",
+      "license": "MIT",
+      "repository": "https://github.com/Gilnaa/memoffset",
+      "notice_files": 1
+    },
+    {
+      "name": "mime",
+      "version": "0.3.17",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/hyperium/mime",
+      "notice_files": 2
+    },
+    {
+      "name": "minimal-lexical",
+      "version": "0.2.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/Alexhuszagh/minimal-lexical",
+      "notice_files": 3
+    },
+    {
+      "name": "mio",
+      "version": "1.2.1",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/mio",
+      "notice_files": 1
+    },
+    {
+      "name": "multer",
+      "version": "3.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/rwf2/multer",
+      "notice_files": 1
+    },
+    {
+      "name": "native-tls",
+      "version": "0.2.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/sfackler/rust-native-tls",
+      "notice_files": 2
+    },
+    {
+      "name": "nix",
+      "version": "0.30.0",
+      "license": "MIT",
+      "repository": "https://github.com/nix-rust/nix",
+      "notice_files": 1
+    },
+    {
+      "name": "nix",
+      "version": "0.29.0",
+      "license": "MIT",
+      "repository": "https://github.com/nix-rust/nix",
+      "notice_files": 1
+    },
+    {
+      "name": "nom",
+      "version": "7.1.3",
+      "license": "MIT",
+      "repository": "https://github.com/Geal/nom",
+      "notice_files": 1
+    },
+    {
+      "name": "num-bigint-dig",
+      "version": "0.8.4",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/dignifiedquire/num-bigint",
+      "notice_files": 2
+    },
+    {
+      "name": "num-integer",
+      "version": "0.1.46",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-num/num-integer",
+      "notice_files": 2
+    },
+    {
+      "name": "num-iter",
+      "version": "0.1.45",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-num/num-iter",
+      "notice_files": 2
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-num/num-traits",
+      "notice_files": 2
+    },
+    {
+      "name": "once_cell",
+      "version": "1.20.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/matklad/once_cell",
+      "notice_files": 2
+    },
+    {
+      "name": "openssl",
+      "version": "0.10.72",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/sfackler/rust-openssl",
+      "notice_files": 2
+    },
+    {
+      "name": "openssl-macros",
+      "version": "0.1.1",
+      "license": "MIT/Apache-2.0",
+      "repository": null,
+      "notice_files": 2
+    },
+    {
+      "name": "openssl-probe",
+      "version": "0.1.6",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/alexcrichton/openssl-probe",
+      "notice_files": 2
+    },
+    {
+      "name": "openssl-sys",
+      "version": "0.9.107",
+      "license": "MIT",
+      "repository": "https://github.com/sfackler/rust-openssl",
+      "notice_files": 1
+    },
+    {
+      "name": "p256",
+      "version": "0.13.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/elliptic-curves/tree/master/p256",
+      "notice_files": 2
+    },
+    {
+      "name": "packed_struct",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/hashmismatch/packed_struct.rs",
+      "notice_files": 1
+    },
+    {
+      "name": "packed_struct_codegen",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/hashmismatch/packed_struct.rs",
+      "notice_files": 0
+    },
+    {
+      "name": "pathdiff",
+      "version": "0.2.3",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/Manishearth/pathdiff",
+      "notice_files": 2
+    },
+    {
+      "name": "pem-rfc7468",
+      "version": "0.7.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/pem-rfc7468",
+      "notice_files": 2
+    },
+    {
+      "name": "percent-encoding",
+      "version": "2.3.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-url/",
+      "notice_files": 2
+    },
+    {
+      "name": "pin-project",
+      "version": "1.1.9",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/taiki-e/pin-project",
+      "notice_files": 2
+    },
+    {
+      "name": "pin-project-internal",
+      "version": "1.1.9",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/taiki-e/pin-project",
+      "notice_files": 2
+    },
+    {
+      "name": "pin-project-lite",
+      "version": "0.2.16",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/taiki-e/pin-project-lite",
+      "notice_files": 2
+    },
+    {
+      "name": "pkcs1",
+      "version": "0.7.5",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/pkcs1",
+      "notice_files": 2
+    },
+    {
+      "name": "pkcs8",
+      "version": "0.10.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/pkcs8",
+      "notice_files": 2
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.31",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/pkg-config-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "ppv-lite86",
+      "version": "0.2.20",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/cryptocorrosion/cryptocorrosion",
+      "notice_files": 2
+    },
+    {
+      "name": "pretty_assertions",
+      "version": "1.4.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-pretty-assertions/rust-pretty-assertions",
+      "notice_files": 2
+    },
+    {
+      "name": "pretty_env_logger",
+      "version": "0.5.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/seanmonstar/pretty-env-logger",
+      "notice_files": 2
+    },
+    {
+      "name": "primeorder",
+      "version": "0.13.6",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/elliptic-curves/tree/master/primeorder",
+      "notice_files": 2
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.93",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/proc-macro2",
+      "notice_files": 2
+    },
+    {
+      "name": "quick-xml",
+      "version": "0.37.2",
+      "license": "MIT",
+      "repository": "https://github.com/tafia/quick-xml",
+      "notice_files": 1
+    },
+    {
+      "name": "quote",
+      "version": "1.0.38",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/quote",
+      "notice_files": 2
+    },
+    {
+      "name": "r-efi",
+      "version": "6.0.0",
+      "license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "repository": "https://github.com/r-efi/r-efi",
+      "notice_files": 1
+    },
+    {
+      "name": "radium",
+      "version": "0.7.0",
+      "license": "MIT",
+      "repository": "https://github.com/bitvecto-rs/radium",
+      "notice_files": 1
+    },
+    {
+      "name": "rand",
+      "version": "0.10.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand",
+      "version": "0.8.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand",
+      "version": "0.9.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand_core",
+      "version": "0.10.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand_core",
+      "notice_files": 3
+    },
+    {
+      "name": "rand_core",
+      "version": "0.6.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "rand_core",
+      "version": "0.9.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/rand",
+      "notice_files": 3
+    },
+    {
+      "name": "regex",
+      "version": "1.11.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex",
+      "notice_files": 2
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.9",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex/tree/master/regex-automata",
+      "notice_files": 2
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.5",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex/tree/master/regex-syntax",
+      "notice_files": 3
+    },
+    {
+      "name": "reqwest",
+      "version": "0.12.15",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/seanmonstar/reqwest",
+      "notice_files": 2
+    },
+    {
+      "name": "rfc6979",
+      "version": "0.4.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/signatures/tree/master/rfc6979",
+      "notice_files": 2
+    },
+    {
+      "name": "rsa",
+      "version": "0.9.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/RSA",
+      "notice_files": 2
+    },
+    {
+      "name": "rustix",
+      "version": "0.38.44",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/bytecodealliance/rustix",
+      "notice_files": 4
+    },
+    {
+      "name": "rustls-pemfile",
+      "version": "2.2.0",
+      "license": "Apache-2.0 OR ISC OR MIT",
+      "repository": "https://github.com/rustls/pemfile",
+      "notice_files": 4
+    },
+    {
+      "name": "rustls-pki-types",
+      "version": "1.11.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustls/pki-types",
+      "notice_files": 2
+    },
+    {
+      "name": "rustversion",
+      "version": "1.0.19",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/rustversion",
+      "notice_files": 2
+    },
+    {
+      "name": "ryu",
+      "version": "1.0.19",
+      "license": "Apache-2.0 OR BSL-1.0",
+      "repository": "https://github.com/dtolnay/ryu",
+      "notice_files": 2
+    },
+    {
+      "name": "schannel",
+      "version": "0.1.27",
+      "license": "MIT",
+      "repository": "https://github.com/steffengy/schannel-rs",
+      "notice_files": 1
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/bluss/scopeguard",
+      "notice_files": 2
+    },
+    {
+      "name": "sec1",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/sec1",
+      "notice_files": 2
+    },
+    {
+      "name": "security-framework",
+      "version": "2.11.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/kornelski/rust-security-framework",
+      "notice_files": 2
+    },
+    {
+      "name": "security-framework-sys",
+      "version": "2.14.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/kornelski/rust-security-framework",
+      "notice_files": 2
+    },
+    {
+      "name": "serde",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.150",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/json",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_path_to_error",
+      "version": "0.1.16",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/path-to-error",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/nox/serde_urlencoded",
+      "notice_files": 2
+    },
+    {
+      "name": "serde_yml",
+      "version": "0.0.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/sebastienrousseau/serde_yml",
+      "notice_files": 2
+    },
+    {
+      "name": "sha1",
+      "version": "0.11.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "notice_files": 2
+    },
+    {
+      "name": "sha1",
+      "version": "0.10.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "notice_files": 2
+    },
+    {
+      "name": "sha1_smol",
+      "version": "1.0.1",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/mitsuhiko/sha1-smol",
+      "notice_files": 2
+    },
+    {
+      "name": "sha2",
+      "version": "0.10.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "notice_files": 2
+    },
+    {
+      "name": "shlex",
+      "version": "1.3.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/comex/rust-shlex",
+      "notice_files": 2
+    },
+    {
+      "name": "signal-hook-registry",
+      "version": "1.4.2",
+      "license": "Apache-2.0/MIT",
+      "repository": "https://github.com/vorner/signal-hook",
+      "notice_files": 2
+    },
+    {
+      "name": "signature",
+      "version": "2.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/traits/tree/master/signature",
+      "notice_files": 2
+    },
+    {
+      "name": "siphasher",
+      "version": "1.0.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/jedisct1/rust-siphash",
+      "notice_files": 1
+    },
+    {
+      "name": "slab",
+      "version": "0.4.9",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/slab",
+      "notice_files": 1
+    },
+    {
+      "name": "smallvec",
+      "version": "1.14.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-smallvec",
+      "notice_files": 2
+    },
+    {
+      "name": "socket2",
+      "version": "0.6.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/socket2",
+      "notice_files": 2
+    },
+    {
+      "name": "socket2",
+      "version": "0.4.10",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/socket2",
+      "notice_files": 2
+    },
+    {
+      "name": "socket2",
+      "version": "0.5.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/socket2",
+      "notice_files": 2
+    },
+    {
+      "name": "spin",
+      "version": "0.9.8",
+      "license": "MIT",
+      "repository": "https://github.com/mvdnes/spin-rs.git",
+      "notice_files": 1
+    },
+    {
+      "name": "spki",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/spki",
+      "notice_files": 2
+    },
+    {
+      "name": "stable_deref_trait",
+      "version": "1.2.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/storyyeller/stable_deref_trait",
+      "notice_files": 2
+    },
+    {
+      "name": "subtle",
+      "version": "2.6.1",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/dalek-cryptography/subtle",
+      "notice_files": 1
+    },
+    {
+      "name": "syn",
+      "version": "2.0.98",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/syn",
+      "notice_files": 2
+    },
+    {
+      "name": "syn",
+      "version": "1.0.109",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/syn",
+      "notice_files": 2
+    },
+    {
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/Actyx/sync_wrapper",
+      "notice_files": 1
+    },
+    {
+      "name": "synstructure",
+      "version": "0.13.1",
+      "license": "MIT",
+      "repository": "https://github.com/mystor/synstructure",
+      "notice_files": 1
+    },
+    {
+      "name": "tap",
+      "version": "1.0.1",
+      "license": "MIT",
+      "repository": "https://github.com/myrrlyn/tap",
+      "notice_files": 1
+    },
+    {
+      "name": "tempfile",
+      "version": "3.17.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Stebalien/tempfile",
+      "notice_files": 2
+    },
+    {
+      "name": "termcolor",
+      "version": "1.4.1",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/termcolor",
+      "notice_files": 2
+    },
+    {
+      "name": "thiserror",
+      "version": "2.0.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "notice_files": 2
+    },
+    {
+      "name": "thiserror",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "notice_files": 2
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "2.0.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "notice_files": 2
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "notice_files": 2
+    },
+    {
+      "name": "tinystr",
+      "version": "0.7.6",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "tls_codec",
+      "version": "0.4.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats",
+      "notice_files": 2
+    },
+    {
+      "name": "tls_codec_derive",
+      "version": "0.4.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats",
+      "notice_files": 2
+    },
+    {
+      "name": "tokio",
+      "version": "1.53.3",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tokio",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-macros",
+      "version": "2.7.0",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tokio",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-native-tls",
+      "version": "0.3.1",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tls",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-openssl",
+      "version": "0.6.5",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/tokio-rs/tokio-openssl",
+      "notice_files": 2
+    },
+    {
+      "name": "tokio-ssdp",
+      "version": "0.2.0",
+      "license": "MIT",
+      "repository": "https://github.com/chrivers/tokio-ssdp",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-stream",
+      "version": "0.1.17",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tokio",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-tungstenite",
+      "version": "0.30.0",
+      "license": "MIT",
+      "repository": "https://github.com/snapview/tokio-tungstenite",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-tungstenite",
+      "version": "0.26.1",
+      "license": "MIT",
+      "repository": "https://github.com/snapview/tokio-tungstenite",
+      "notice_files": 1
+    },
+    {
+      "name": "tokio-util",
+      "version": "0.7.13",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tokio",
+      "notice_files": 1
+    },
+    {
+      "name": "tower",
+      "version": "0.5.2",
+      "license": "MIT",
+      "repository": "https://github.com/tower-rs/tower",
+      "notice_files": 1
+    },
+    {
+      "name": "tower",
+      "version": "0.4.13",
+      "license": "MIT",
+      "repository": "https://github.com/tower-rs/tower",
+      "notice_files": 1
+    },
+    {
+      "name": "tower-http",
+      "version": "0.6.2",
+      "license": "MIT",
+      "repository": "https://github.com/tower-rs/tower-http",
+      "notice_files": 1
+    },
+    {
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "license": "MIT",
+      "repository": "https://github.com/tower-rs/tower",
+      "notice_files": 1
+    },
+    {
+      "name": "tower-service",
+      "version": "0.3.3",
+      "license": "MIT",
+      "repository": "https://github.com/tower-rs/tower",
+      "notice_files": 1
+    },
+    {
+      "name": "tracing",
+      "version": "0.1.41",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tracing",
+      "notice_files": 1
+    },
+    {
+      "name": "tracing-attributes",
+      "version": "0.1.28",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tracing",
+      "notice_files": 1
+    },
+    {
+      "name": "tracing-core",
+      "version": "0.1.33",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tracing",
+      "notice_files": 2
+    },
+    {
+      "name": "try-lock",
+      "version": "0.2.5",
+      "license": "MIT",
+      "repository": "https://github.com/seanmonstar/try-lock",
+      "notice_files": 1
+    },
+    {
+      "name": "tungstenite",
+      "version": "0.30.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/snapview/tungstenite-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "tungstenite",
+      "version": "0.26.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/snapview/tungstenite-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "typenum",
+      "version": "1.20.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/paholg/typenum",
+      "notice_files": 3
+    },
+    {
+      "name": "tzfile",
+      "version": "0.1.3",
+      "license": "MIT",
+      "repository": "https://github.com/kennytm/tzfile",
+      "notice_files": 1
+    },
+    {
+      "name": "udp-stream",
+      "version": "0.0.12",
+      "license": "MIT",
+      "repository": "https://github.com/narrowlink/udp-stream",
+      "notice_files": 1
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.16",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "repository": "https://github.com/dtolnay/unicode-ident",
+      "notice_files": 3
+    },
+    {
+      "name": "url",
+      "version": "2.5.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-url",
+      "notice_files": 2
+    },
+    {
+      "name": "utf-8",
+      "version": "0.7.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/SimonSapin/rust-utf8",
+      "notice_files": 2
+    },
+    {
+      "name": "utf16_iter",
+      "version": "1.0.5",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/hsivonen/utf16_iter",
+      "notice_files": 3
+    },
+    {
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/hsivonen/utf8_iter",
+      "notice_files": 3
+    },
+    {
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/alacritty/vte",
+      "notice_files": 2
+    },
+    {
+      "name": "uuid",
+      "version": "1.16.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/uuid-rs/uuid",
+      "notice_files": 2
+    },
+    {
+      "name": "vcpkg",
+      "version": "0.2.15",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/mcgoo/vcpkg-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "version_check",
+      "version": "0.9.5",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/SergioBenitez/version_check",
+      "notice_files": 2
+    },
+    {
+      "name": "vg_errortools",
+      "version": "0.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/VolumeGraphics/vg_errortools",
+      "notice_files": 1
+    },
+    {
+      "name": "want",
+      "version": "0.3.1",
+      "license": "MIT",
+      "repository": "https://github.com/seanmonstar/want",
+      "notice_files": 1
+    },
+    {
+      "name": "wasi",
+      "version": "0.13.3+wasi-0.2.2",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/bytecodealliance/wasi-rs",
+      "notice_files": 3
+    },
+    {
+      "name": "wasi",
+      "version": "0.11.0+wasi-snapshot-preview1",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/bytecodealliance/wasi",
+      "notice_files": 3
+    },
+    {
+      "name": "wasm-bindgen",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-bindgen-backend",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/backend",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-bindgen-futures",
+      "version": "0.4.50",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/futures",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-bindgen-macro-support",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro-support",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-bindgen-shared",
+      "version": "0.2.100",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared",
+      "notice_files": 2
+    },
+    {
+      "name": "wasm-streams",
+      "version": "0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/MattiasBuelens/wasm-streams/",
+      "notice_files": 2
+    },
+    {
+      "name": "web-sys",
+      "version": "0.3.77",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustwasm/wasm-bindgen/tree/master/crates/web-sys",
+      "notice_files": 2
+    },
+    {
+      "name": "winapi",
+      "version": "0.3.9",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/retep998/winapi-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/retep998/winapi-rs",
+      "notice_files": 0
+    },
+    {
+      "name": "winapi-util",
+      "version": "0.1.9",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/winapi-util",
+      "notice_files": 2
+    },
+    {
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/retep998/winapi-rs",
+      "notice_files": 0
+    },
+    {
+      "name": "windows-core",
+      "version": "0.52.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-link",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-link",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-registry",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-result",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-strings",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.52.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.59.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_aarch64_msvc",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_aarch64_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_gnu",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_gnu",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_gnullvm",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_msvc",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_i686_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_gnu",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_gnu",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.53.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "notice_files": 2
+    },
+    {
+      "name": "winnow",
+      "version": "0.7.2",
+      "license": "MIT",
+      "repository": "https://github.com/winnow-rs/winnow",
+      "notice_files": 1
+    },
+    {
+      "name": "wit-bindgen-rt",
+      "version": "0.33.0",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/bytecodealliance/wasi-rs",
+      "notice_files": 0
+    },
+    {
+      "name": "write16",
+      "version": "1.0.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/hsivonen/write16",
+      "notice_files": 3
+    },
+    {
+      "name": "writeable",
+      "version": "0.5.5",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "wyz",
+      "version": "0.5.1",
+      "license": "MIT",
+      "repository": "https://github.com/myrrlyn/wyz",
+      "notice_files": 1
+    },
+    {
+      "name": "x509-cert",
+      "version": "0.2.5",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/formats/tree/master/x509-cert",
+      "notice_files": 2
+    },
+    {
+      "name": "yaml-rust2",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Ethiraric/yaml-rust2",
+      "notice_files": 2
+    },
+    {
+      "name": "yansi",
+      "version": "1.0.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/SergioBenitez/yansi",
+      "notice_files": 2
+    },
+    {
+      "name": "yoke",
+      "version": "0.7.5",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "yoke-derive",
+      "version": "0.7.5",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "zerocopy",
+      "version": "0.8.18",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/google/zerocopy",
+      "notice_files": 3
+    },
+    {
+      "name": "zerocopy",
+      "version": "0.7.35",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/google/zerocopy",
+      "notice_files": 5
+    },
+    {
+      "name": "zerocopy-derive",
+      "version": "0.8.18",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/google/zerocopy",
+      "notice_files": 3
+    },
+    {
+      "name": "zerocopy-derive",
+      "version": "0.7.35",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/google/zerocopy",
+      "notice_files": 3
+    },
+    {
+      "name": "zerofrom",
+      "version": "0.1.5",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "zerofrom-derive",
+      "version": "0.1.5",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "zeroize",
+      "version": "1.8.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/utils/tree/master/zeroize",
+      "notice_files": 2
+    },
+    {
+      "name": "zeroize_derive",
+      "version": "1.4.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/RustCrypto/utils/tree/master/zeroize/derive",
+      "notice_files": 2
+    },
+    {
+      "name": "zerovec",
+      "version": "0.10.4",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "zerovec-derive",
+      "version": "0.10.3",
+      "license": "Unicode-3.0",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "notice_files": 1
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.21",
+      "license": "MIT",
+      "repository": "https://github.com/dtolnay/zmij",
+      "notice_files": 1
+    }
+  ],
+  "packages_without_standalone_license_file": [
+    "diffs-0.5.1",
+    "eventsource-stream-0.2.3",
+    "json_diff_ng-0.6.0",
+    "packed_struct-0.10.1",
+    "packed_struct_codegen-0.10.1",
+    "winapi-i686-pc-windows-gnu-0.4.0",
+    "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "wit-bindgen-rt-0.33.0"
+  ]
+}

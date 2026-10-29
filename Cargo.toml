@@ -37,6 +37,7 @@ keywords = [
 ]
 
 [workspace]
+exclude = ["mdns-sd"]
 members = [
     "crates/bifrost-api",
     "crates/hue",
@@ -149,3 +150,7 @@ json_diff_ng = { version = "0.6.0", default-features = false }
 packed_struct = "0.10.1"
 eventsource-stream = "0.2.3"
 pretty_assertions = "1.4.1"
+
+# Retain the locally validated empty-mDNS-response fix.
+[patch.crates-io]
+mdns-sd = { path = "mdns-sd" }

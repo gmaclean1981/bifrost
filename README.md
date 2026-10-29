@@ -1,3 +1,51 @@
+# Bifrost maintenance fork
+
+Personal maintenance build of [duvholt/bifrost](https://github.com/duvholt/bifrost),
+based on commit `c75be22a54d45495918bfe0751844363f7c9fc6d`. Original project: [chrivers/bifrost](https://github.com/chrivers/bifrost).
+
+**Release: `dev-2026-10-28-maint.1`. Linux amd64 only.** Modified October 28, 2026.
+Includes the existing `mdns-sd` 0.13.2 empty-response fix with five UDP regression
+tests, and retained updates to bytes 1.11.1, h2 0.4.16, anyhow 1.0.103, rand 0.8.6
+and 0.9.3, and tokio 1.53.3. Upstream application logic is unchanged.
+
+- [Install as a Home Assistant app](https://github.com/gmaclean1981/bifrost-hassio)
+- [Download tested binary and corresponding source](https://github.com/gmaclean1981/bifrost/releases)
+- [Changes](MAINTENANCE.md), [build instructions](BUILDING.md), [validation and limits](VALIDATION.md)
+
+## Attribution and licensing
+
+- **Bifrost:** originally created by Christian Iversen and contributors at
+  [chrivers/bifrost](https://github.com/chrivers/bifrost).
+- **Upstream used here:** Christian Duvholt and contributors at
+  [duvholt/bifrost](https://github.com/duvholt/bifrost).
+- **mDNS library:** Han Xu and contributors, `mdns-sd` 0.13.2,
+  [keepsimple1/mdns-sd](https://github.com/keepsimple1/mdns-sd).
+
+Bifrost and this modified combined program are distributed under **GPL-3.0-only**.
+The original license and copyright notices are retained. The mDNS library is
+dual licensed Apache-2.0 OR MIT; this distribution retains both license texts
+and uses its MIT permission. Other dependencies retain their individual terms.
+The binary bundle includes dependency license/notice files. The accompanying
+corresponding-source archive includes the locked dependency sources and their
+notices, plus the patched application and build scripts.
+
+This is an independent personal maintenance build, without upstream endorsement.
+New maintenance contributions: Copyright (c) 2026 gmaclean1981 and contributors,
+GPL-3.0-only. Existing authorship and notices remain in their respective files.
+
+## AI-agent disclosure
+
+The maintenance modifications, regression tests, build scripts, documentation,
+and Home Assistant packaging in this fork were coded using an AI coding agent
+(OpenAI Codex), with direction and hands-on device testing by the repository
+owner. Bifrost itself and its upstream features were created by their original
+authors and contributors; this disclosure does not attribute their work to AI.
+
+---
+
+The upstream README is retained below. Its installation links describe the
+upstream builds; use the links above for this maintenance release.
+
 ![](doc/logo-title-640x160.png)
 
 # Bifrost Bridge
